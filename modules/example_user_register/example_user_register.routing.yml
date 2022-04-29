@@ -1,0 +1,7 @@
+example_user_register.custom:
+  path: /a'
+  defaults:
+    _controller: '\Drupal\example_user_register\Controller\UserRegisterController::example'
+    _title: 'Welcome to My Module in Drupal 9'
+  requirements:
+    _permission: 'access content'

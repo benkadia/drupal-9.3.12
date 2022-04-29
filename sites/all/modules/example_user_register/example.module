@@ -1,0 +1,11 @@
+<?php
+	function example_theme(){
+		return array(
+			'example' =>array(
+				'variables' =>array(
+					'items' =>[],
+					'title' =>''
+				)
+			)
+		);
+	}

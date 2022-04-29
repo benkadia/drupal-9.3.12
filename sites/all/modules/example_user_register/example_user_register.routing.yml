@@ -1,0 +1,8 @@
+example_user_register.example:
+  path: '/a'
+  defaults:
+    _title: 'Custom WebForm Module'
+    #_form: '\Drupal\example_user_register\Form\ExampleForm'
+    _controller: '\Drupal\example_user_register\Controller\UserRegisterController::example'
+  requirements:
+    _permission: 'access content'
