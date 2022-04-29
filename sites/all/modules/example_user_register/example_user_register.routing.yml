@@ -1,5 +1,5 @@
 example_user_register.example:
-  path: '/a'
+  path: '/user/form/example-register'
   defaults:
     _title: 'Custom WebForm Module'
     #_form: '\Drupal\example_user_register\Form\ExampleForm'
